@@ -16,3 +16,12 @@
         height:460px !important;
     }
 }
+
+#gameContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-content: center !important;
+    height: 98vh !important;
+    margin: 1 !important;
+}
