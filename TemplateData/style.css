@@ -1,3 +1,9 @@
+@media(min-width:680px){
+    #gameContainer{
+    width: 370px !important; 
+    height: 700px !important;
+    }
+}
 @media(max-height:680px) {
     #gameContainer{
         width: 310px !important;
@@ -16,7 +22,18 @@
         height:460px !important;
     }
 }
-
+@media(max-width:400px){
+    #gameContainer {
+        width:100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
+        height: 98vh !important;
+        margin: 1 !important;
+    }
+}
+@media(min-width:400px){
 #gameContainer {
     display: flex !important;
     flex-direction: column !important;
@@ -24,4 +41,5 @@
     align-content: center !important;
     height: 98vh !important;
     margin: 1 !important;
+}
 }
